@@ -16,7 +16,9 @@ Displays confidence score
 Interactive Streamlit interface
 Lightweight and fast prediction
 Easy to deploy locally or on cloud platforms
+
 ---
+
 📂 Project Structure
 Dog-Cat-Classifier/
 │
@@ -26,7 +28,9 @@ Dog-Cat-Classifier/
 ├── requirements.txt       # Required Libraries
 ├── README.md              # Project Documentation
 └── assets/                # Images (Optional)
+
 ---
+
 🛠 Technologies Used
 Technology	Purpose
 Python	Programming Language
@@ -36,6 +40,10 @@ Pillow (PIL)	Image Processing
 Scikit-Image	Image Resizing & HOG Features
 Scikit-Learn	Machine Learning Utilities
 Joblib	Model Loading
+
+---
+
+
 📊 Machine Learning Workflow
 Input Image
       │
@@ -62,6 +70,9 @@ Dog / Cat
       │
       ▼
 Confidence Score
+
+---
+
 🧠 HOG Feature Extraction
 
 The project uses Histogram of Oriented Gradients (HOG) for extracting important image features.
@@ -75,6 +86,9 @@ Gradient orientation
 
 These extracted features are then used by the classifier to distinguish between Dogs and Cats.
 
+---
+
+
 📸 Application Interface
 
 The application allows users to
@@ -84,6 +98,9 @@ View uploaded image
 Predict image class
 Display confidence percentage
 Show prediction message based on confidence
+
+---
+
 ⚙️ Installation
 
 Clone the repository
@@ -94,16 +111,24 @@ Go to project directory
 
 cd Dog-Cat-classifier
 
+
+---
+
+
 Create virtual environment
 
-python -m venv venv
+python -m venv v
 
 Activate environment
 
 Windows
-venv\Scripts\activate
+v\Scripts\activate
 Linux / Mac
-source venv/bin/activate
+source v/bin/activate
+
+
+---
+
 
 Install dependencies
 
@@ -117,6 +142,10 @@ The application will open in your browser automatically.
 JPG
 JPEG
 PNG
+
+---
+
+
 📈 Prediction Output
 
 The application displays
@@ -130,6 +159,10 @@ Example
 Prediction : DOG
 
 Confidence : 95.62%
+
+---
+
+
 📚 Libraries Used
 streamlit
 numpy
@@ -137,6 +170,10 @@ Pillow
 scikit-image
 scikit-learn
 joblib
+
+---
+
+
 💡 Future Improvements
 CNN-based Deep Learning Model
 TensorFlow/Keras Integration
@@ -147,6 +184,10 @@ Webcam Detection
 Real-time Video Classification
 Grad-CAM Visualization
 Multi-class Animal Classification
+
+---
+
+
 🎯 Learning Outcomes
 
 This project demonstrates
@@ -158,6 +199,10 @@ Feature Extraction
 HOG Descriptor
 Streamlit Deployment
 Machine Learning Pipeline
+
+---
+
+
 📷 Sample Workflow
 Upload Image
       ↓
