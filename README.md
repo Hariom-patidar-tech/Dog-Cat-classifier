@@ -1,4 +1,7 @@
-🐶🐱 Dog vs Cat Image Classifier
+🐶🐱 DOG AND CAT CLASSIFIER
+
+---
+
 📌 Project Overview
 
 The Dog vs Cat Image Classifier is a Machine Learning project that classifies an uploaded image as either a Dog or a Cat. The application is built using Python and Streamlit, providing a simple and interactive web interface where users can upload an image and instantly receive the predicted class along with the confidence score.
@@ -215,6 +218,9 @@ Model Prediction
 Dog / Cat
       ↓
 Display Confidence
+
+---
+
 📌 Requirements
 Python 3.9+
 
@@ -229,15 +235,18 @@ Scikit-image
 Scikit-learn
 
 Joblib
+
+---
+
+
 🤝 Contributing
 
 Contributions are welcome!
 
 If you'd like to improve this project, feel free to fork the repository and submit a pull request.
 
-📄 License
+---
 
-This project is licensed under the MIT License.
 
 👨‍💻 Author
 
